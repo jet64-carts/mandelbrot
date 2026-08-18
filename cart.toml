@@ -1,0 +1,13 @@
+# cart.toml — the Cartridge Exchange package manifest (schema 1)
+schema = 1
+id = "io.github.jet64-carts.mandelbrot"
+name = "Mandelbrot"
+version = "1.0.0"
+jet64_api = 11
+license = "MIT"
+
+[package]
+include = ["*.c", "*.h", "data/**", "LICENSE", "README.md", "file_id.diz"]
+
+[capabilities]
+network = false

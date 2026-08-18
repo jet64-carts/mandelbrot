@@ -1,0 +1,25 @@
+(
+    app_name: "Mandelbrot",
+    publisher: "@73v3",
+    description: "The Mandelbrot set, explored live at 120 Hz — drag and dive to a magnification of 10^260, every pixel exact or proven.",
+    version: "1.0.0",
+    copyright: "© 2026 73v3 - 73v3.com",
+    publish_enabled: true,
+    web_splash: (
+        start_label: "Click to explore",
+        instructions: "Drag to pan, wheel to dive. Press 1 to 9 to fly to a bookmark, / for help.",
+        theme: (
+            background: "#0b0e14",
+            text: "#e6edf3",
+            hint: "#8b98a5",
+            accent: "#4fd6be",
+            accent_text: "#04211c",
+            font_family: "system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+        ),
+        wallpaper: (
+            fit: Tile,
+            scale: 1,
+            crisp: true,
+        ),
+    ),
+)

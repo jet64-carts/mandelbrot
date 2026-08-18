@@ -1,0 +1,85 @@
+(
+    font_paths: ("assets/fonts/press_start/PressStart2P-Regular.ttf", "", "", "assets/fonts/monogram/monogram.ttf"),
+    font_configs: ((
+        aa_threshold: 32,
+        padding_x: 0,
+        padding_y: 0,
+        mono_scale: 1.0,
+    ), (
+        aa_threshold: 32,
+        padding_x: 0,
+        padding_y: 0,
+        mono_scale: 1.0,
+    ), (
+        aa_threshold: 32,
+        padding_x: 0,
+        padding_y: 0,
+        mono_scale: 1.0,
+    ), (
+        aa_threshold: 32,
+        padding_x: 0,
+        padding_y: 0,
+        mono_scale: 1.0,
+    )),
+    active_palette: None,
+    sfx_editor: (),
+    mix_config: (
+        bus_drive_drum: 1.5,
+        bus_makeup_drum: 0.85,
+        bus_drive_sfx: 1.2,
+        bus_makeup_sfx: 0.9,
+        bus_gain_pcm: 1.0,
+        bus_gain_synth: 0.8,
+        bus_gain_sfx: 0.8,
+        bus_gain_drum: 1.0,
+        master_gain_active: 0.5,
+        master_eq_enabled: true,
+        master_eq_bands_db: (0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0),
+        limiter_enabled: true,
+    ),
+    shader: (
+        neon: true,
+        glow: (
+            enabled: false,
+            value: 0.5,
+        ),
+        vector_glow: (
+            enabled: false,
+            value: 1.0,
+        ),
+        vector_glow_tuning: (
+            threshold: 0.2,
+            knee: 0.3,
+            radius: 1.0,
+            falloff: 1.0,
+            alpha: false,
+        ),
+        aa: (
+            enabled: false,
+            value: 0.35,
+        ),
+        crt: (
+            enabled: false,
+            value: (
+                quantity: 360.0,
+                strength: 0.3,
+            ),
+        ),
+        grade: (
+            enabled: false,
+            value: (
+                hue: 0.0,
+                saturation: 1.0,
+                lightness: 1.0,
+                contrast: 1.0,
+                gamma: 1.0,
+            ),
+        ),
+        copper: true,
+    ),
+    three_d_lab: (
+        model_path: "",
+        allow_overwrite: false,
+        auto_anim: true,
+    ),
+)
